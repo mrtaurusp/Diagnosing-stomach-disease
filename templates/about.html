@@ -1,0 +1,45 @@
+{% extends 'layout.html'%}
+
+{% block body %}
+<div class="jumbotron">
+  <div class="container">
+    <h1 class="">Bài Tập 11</h1>
+    <p style="font-weight: bold;">Đề bài 2: Tự tìm hiểu ngôn ngữ lập trình khác (không phải matlab) và xây dựng một
+      chương trình HCG chẩn đoán một
+      số triệu chứng. Yêu cầu có phần cơ sở tri thức và phần lập luận suy diễn của MSD</p>
+    </p>
+    <p><b>Ngôn ngữ lập trình:</b> <a href="https://python.org">Python 3 (3.7.0)</a> </p>
+    <p><b>Backend Framework:</b> <a href="https://flask.pocoo.org"> Flask</a></p>
+    <p><b>Frontend Framework:</b> <a href="https://getbootstrap.com"> Bootstrap ver 4.1 </a></p>
+    <p><b>Thuật toán:</b> <a href="https://vi.wikipedia.org/wiki/%C4%90%E1%BB%8Bnh_l%C3%BD_Bayes">Bayes</a>
+      <p>Giả sử \(B_1, B_2,\ldots, B_n\) là hệ đầy đủ các biến cố với \(P(B_i)>0\) với mọi \(i=1,2,\ldots,n\). Khi đó
+        với bất kỳ biến cố A, ta có:
+      </p>
+      \(\Bbb P(A)= \Bbb P(B_1) \Bbb P(A | B_1)+\Bbb P(B_2)\Bbb P(A | B_2)+\cdots+\Bbb P(B_n)\Bbb P(A | B_n)\).<br>
+      <p> <i> Với \(\Bbb P(A|B_i) \) đã được biết trước.</i></p>
+    </p>
+
+    <p><b>Tập dữ liệu:</b> <a>6 bệnh, 25 triệu chứng</a> </p>
+    <p><a class="btn btn-primary btn-lg" href="/diagnostic" role="button">Bắt đầu »</a></p>
+  </div>
+</div>
+<div class="container">
+  <!-- Example row of columns -->
+  <div class="row">
+    <div class="col-md-6">
+      <h3>Người thực hiện</h3>
+      <ol>
+        <li>Nguyễn Thanh Huyền</li>
+        <li>Nguyễn Anh Minh</li>
+      </ol>
+    </div>
+    <div class="col-md-6">
+      <h3>Giáo viên hướng dẫn</h3>
+      <li>Mai Ngọc Anh</li>
+    </div>
+  </div>
+
+  <hr>
+
+</div>
+{% endblock %}
